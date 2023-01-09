@@ -1,0 +1,156 @@
+{
+    "terminal.integrated.defaultProfile.osx": "DefaultZellij",
+    "terminal.integrated.profiles.osx": {
+        "DefaultZellij": {
+            "path": "zellij",
+            "args": []
+          }
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "cmake.configureOnOpen": true,
+    "liveshare.anonymousGuestApproval": "accept",
+    "tabnine.experimentalAutoImports": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    // "C_Cpp.updateChannel": "Insiders",
+    "workbench.editorAssociations": {
+        // "*.ipynb": "jupyter.notebook.ipynb",
+        "*.pdf": "pdf.preview"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "[Material Theme*]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment",
+                        "comment punctuation.definition.comment"
+                    ],
+                    "settings": {
+                        "foreground": "#6e76af",
+                   }
+                },
+            ]
+        },
+    },
+    "workbench.colorCustomizations": {
+        "badge.background": "#00000000",
+        "badge.foreground": "#6e76af"
+    },
+
+    // "python.pythonPath": "/usr/local/opt/python@3.9/bin/python3.9",
+    "workbench.sideBar.location": "right",
+    "editor.renderWhitespace": "none",
+    "arduino.additionalUrls": [],
+    // "code-runner.executorMap": {
+    //     "rust": "cargo run # $fileName",
+    //     "racket": "(exit); racket -i -e '(enter! \"$fileName\")'",
+    // },
+    "workbench.colorTheme": "Dobri Next -C06- Ayu",
+    "python.defaultInterpreterPath": "/usr/local/opt/python@3.9/bin/python3.9",
+    "editor.minimap.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.mac": "/Users/rbhagat/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.startupEditor": "none",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // Vim Stuff
+    "vim.leader": "\\",
+    "vim.neovimUseConfigFile": true,
+    "vim.neovimConfigPath": "~/.config/nvim/init.vim",
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["o"],
+            "after": ["o", "<ESC>"],
+        },
+        {
+            "before": ["O"],
+            "after": ["O", "<ESC>"],
+        },
+        {
+            "before": ["L"],
+            "after": ["$"],
+        },
+        {
+            "before": ["H"],
+            "after": ["^"],
+        },
+        {
+            "before": ["f"],
+            "after": ["%"],
+        },
+        {
+            "before": ["<C-j>"],
+            "after": [":m '>+1<CR>gv=gv"],
+        },
+        {
+            "before": ["<C-k>"],
+            "after": [":m '<-2<CR>gv=gv"],
+        },
+    ],
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before": ["o"],
+            "after": ["o", "<ESC>"]
+        },
+        {
+            "before": ["O"],
+            "after": ["O", "<ESC>"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+    ],
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["o"],
+            "after": ["o", "<ESC>"]
+        },
+        {
+            "before": ["O"],
+            "after": ["O", "<ESC>"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["f"],
+            "after": ["%"]
+        },
+    ],
+    "vim.foldfix": true,
+    "vim.handleKeys": {
+        "<C-j>": true,
+    },
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "haskell.manageHLS": "PATH",
+    "rust-analyzer.cargo.buildScripts.overrideCommand": null,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.statusBar.visible": false,
+}
+ 
