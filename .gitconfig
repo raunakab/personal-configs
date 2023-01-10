@@ -28,4 +28,4 @@
     hist = log --pretty=oneline
 
 [init]
-	defaultBranch = master
+    defaultBranch = master
