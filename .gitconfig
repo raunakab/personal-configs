@@ -25,7 +25,7 @@
 
 [alias]
 	conf = diff --name-only --diff-filter=U
-  hist = log --pretty=oneline
+    hist = log --pretty=oneline
 
 [init]
 	defaultBranch = master
