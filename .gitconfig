@@ -24,7 +24,7 @@
     untracked = red bold
 
 [alias]
-	conf = diff --name-only --diff-filter=U
+    conf = diff --name-only --diff-filter=U
     hist = log --pretty=oneline
 
 [init]
