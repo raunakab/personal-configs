@@ -1,22 +1,32 @@
 [user]
-    name = Raunak Bhagat
+  name = Raunak Bhagat
+  email = rabhagat31@gmail.com
+
 [core]
-	editor = vim
+	editor = nvim
+
 [color]
-	ui = true
+  ui = true
+
 [color "branch"]
-    current = green bold
-    remote = red bold
+  current = green bold
+  remote = red bold
+
 [color "diff"]
-    meta = yellow
-    frag = magenta
-    new = green bold
-    old = red bold
+  meta = yellow
+  frag = magenta
+  new = green bold
+  old = red bold
+
 [color "status"]
-    added = green bold
-    changed = yellow bold
-    untracked = red bold
+  added = green bold
+  changed = yellow bold
+  untracked = red bold
+
 [alias]
 	conf = diff --name-only --diff-filter=U
+  hist = log --pretty=oneline
+
 [init]
 	defaultBranch = master
+
